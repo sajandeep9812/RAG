@@ -49,5 +49,5 @@ class PDFIngestor:
 if __name__ == "__main__":
     ingestor = PDFIngestor(base_path="data")
     chunks = ingestor.ingest()
-    print(f"\n✅ Total chunks created: {len(chunks)}")
+    print(f"\n Total chunks created: {len(chunks)}")
     print("Sample chunk:\n", chunks[0].page_content[:500])
