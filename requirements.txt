@@ -7,3 +7,5 @@ pydantic
 fastapi
 uvicorn
 python-dotenv
+pypdf
+pymupdf
